@@ -1,0 +1,12 @@
+.DS_Store
+ca/.DS_Store
+examples/.DS_Store
+terraform/.DS_Store
+terraform/.gitignore
+terraform/KUBECONFIG
+terraform/README.md
+terraform/stu
+.terraform/
+terraform/plan
+terraform/providers.tf
+terraform/terraform.tfstate*
