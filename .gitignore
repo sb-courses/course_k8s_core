@@ -10,3 +10,10 @@ terraform/stu
 terraform/plan
 terraform/providers.tf
 terraform/terraform.tfstate*
+
+ca/eks.k8s.stubrown.org/
+ca/minica
+ca/minica-key.pem
+ca/minica.pem
+manual_setup/core/cloudbees-core_2.190.2.2_kubernetes
+terraform/config_map_aws_auth.yaml

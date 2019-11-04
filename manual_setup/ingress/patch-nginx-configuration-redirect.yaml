@@ -1,0 +1,13 @@
+data:
+  use-proxy-protocol: "true"
+  http-snippet: |
+    map '' $pass_access_scheme {
+       default          https;
+    }
+    map '' $pass_port {
+        default          443;
+    }
+    server {
+      listen 8080 proxy_protocol;
+      return 301 https://$host$request_uri;
+    }
