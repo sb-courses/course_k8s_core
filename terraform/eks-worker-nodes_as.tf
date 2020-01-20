@@ -1,5 +1,5 @@
 resource "aws_iam_policy" "autoscale" {
-  name        = "autoscale"
+  name        = "${var.cluster-name}-autoscale"
   path        = "/"
   description = "autoscale policy"
 
