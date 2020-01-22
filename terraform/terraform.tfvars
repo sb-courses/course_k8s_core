@@ -1,1 +1,1 @@
-cluster-name = "teststudent1"
+cluster-name = "freddystutest"
